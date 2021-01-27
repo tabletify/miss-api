@@ -1,0 +1,25 @@
+{
+  "name": "miss-api.xyz",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm i && node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "*",
+    "mongoose": "*",
+    "form-data": "*",
+    "body-parser": "*",
+    "express-session": "*"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": ""
+  },
+  "license": "MIT",
+  "keywords": []
+}

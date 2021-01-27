@@ -1,0 +1,46 @@
+{
+    "animals": {
+        "cat": "/v2/cat",
+        "dog": "/v2/dog",
+        "fox": "/v2/fox",
+        "koal": "/v2/koal",
+        "pand": "/v2/pand",
+        "snake": "/v2/snake",
+        "wolf": "/v2/wolf",
+        "squirrel": "/v2/squirrel"
+    },
+    "nsfw-real": {
+        "porn": "/v2/porn",
+        "real_ass": "/v2/real_ass",
+        "real_pussy": "/v2/real_pussy",
+        "real_boobs": "/v2/real_boobs"
+    },
+    "nsfw-anime": {
+        "hentai": "/v2/hentai",
+        "hentai_gif": "/v2/hentai_gif",
+        "ass": "/v2/ass",
+        "pussy": "/v2/pussy",
+        "boobs": "/v2/boobs"
+    },
+    "sfw": {
+        "hug": "/v2/hug",
+        "kiss": "/v2/kiss",
+        "cry": "/v2/cry",
+        "kill": "/v2/kill",
+        "sex": "/v2/sex",
+        "view": "/v2/view",
+        "bite": "/v2/bite",
+        "feed": "/v2/feed",
+        "poke": "/v2/poke",
+        "pat": "/v2/pat",
+        "slap": "/v2/slap"
+    },
+   "reactions": {
+        "angry": "/v2/angry",
+        "dance": "/v2/dance",
+        "kill": "/v2/kill"
+   },
+   "other": {
+        "meme": "/v2/meme"
+   }
+}

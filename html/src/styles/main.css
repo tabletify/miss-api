@@ -1,0 +1,103 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #181b3d;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.centered {
+    width: 200px; 
+    padding: 40px; 
+    margin: auto;
+}
+
+.mainBlock{
+    margin-top: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.mainBlock span{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif !important;
+    opacity: 0.6;
+}
+
+.mainImg {
+    width: 199px;
+    height: 137px
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons a {
+    padding: 10px 30px;
+}
+
+.btn {
+    font-size: 20px;
+    font-family: monospace;
+    color: #fff;
+    background: linear-gradient(to left, #3743bb, #252f9b);
+    text-decoration: none;
+    padding: 15px 70px;
+    border-radius: 20px;
+    background-size: 200%;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-position: right;
+    box-shadow: 0 0 10px #31398f;
+}
+
+/* Анимация печатающего текста */
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    color: white;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/*  */
+@media screen and (max-width: 1024px) {
+    .mainBlock{
+        margin-top: 150%;
+    }
+}
+  
+/* mobile */
+@media screen and (max-width: 600px) {
+    .mainBlock {
+        margin-top: 60%;
+        max-width: 300px;
+        text-align: center;
+    }
+}
